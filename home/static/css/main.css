@@ -9,7 +9,11 @@ header {
     background-color: #007bff;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;;
 }
 header h1 {
     margin: 0;
@@ -67,10 +71,16 @@ a {
     color: #007bff;
     text-decoration: none;
 }
-a:hover {
-    text-decoration: underline;
-}
 
 .mb-80 {
     margin-bottom: 80px;
+}
+nav { 
+    color: black;
+}
+nav a{ 
+    color: black;
+}
+nav a:hover{ 
+    color: red;
 }

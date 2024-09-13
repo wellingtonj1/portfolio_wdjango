@@ -1,56 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Wellington Junio</title>
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'css/main.css' %}">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Wellington Junio</h1>
-            <p>Desenvolvedor Full Stack | Back End | DevOps</p>
-            <p>Goiânia, Goiás, Brasil</p>
-        </div>
-    </header>
+{% extends 'base.html' %}
 
+{% block content %}
     <div class="container">
-        <section class="section contact-info">
-            <h2>Contato</h2>
-            <p><strong>Telefone:</strong> 62985009878 (Home)</p>
-            <p><strong>Email:</strong> <a href="mailto:wellingtonj1@hotmail.com">wellingtonj1@hotmail.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/wellingtonjunio-902312131" target="_blank">www.linkedin.com/in/wellingtonjunio-902312131</a></p>
-            <p><strong>LinkBio:</strong> <a href="https://lnk.bio/wellingtonFernandes" target="_blank">https://lnk.bio/wellingtonFernandes</a></p>
-        </section>
-
-        <section class="section competencies">
-            <h2>Principais Competências</h2>
-            <ul>
-                <li>Server Side Programming</li>
-                <li>Back-end Operations</li>
-                <li>Back-End Web Development</li>
-            </ul>
-        </section>
-
-        <section class="section certifications">
-            <h2>Certificações</h2>
-            <ul>
-                <li>Laravel: e-mails, eventos assíncronos, uploads e testes</li>
-                <li>Formação Django</li>
-                <li>Autenticação no Django: formulários, requisições e mensagens</li>
-                <li>API com Django 3: Django Rest Framework</li>
-                <li>Arquitetura de computadores: por trás de como seu programa funciona</li>
-            </ul>
-        </section>
-
-        <section class="section summary">
-            <h2>Resumo</h2>
-            <p>Sou apaixonado por desenvolvimento de software e estou sempre em busca de novos desafios e tecnologias emergentes. Com mais de 7 anos de experiência, já atuei como desenvolvedor tanto no setor público quanto no privado.</p>
-            <p>Sou um profissional versátil, sempre pronto para aprender e ensinar, com uma forte crença no poder transformador da educação. Explorar novos horizontes e áreas desconhecidas é algo que me motiva continuamente. Como Cientista da Computação, sou fascinado por resolver problemas complexos e encontrar soluções inovadoras, independentemente da linguagem de programação utilizada.</p>
-        </section>
-
         <section class="section experience">
             <h2>Experiência</h2>
 
@@ -134,18 +85,5 @@
                 </ul>
             </div>
         </section>
-
-        <section class="section education mb-80">
-            <h2>Formação Acadêmica</h2>
-            <div class="education-item">
-                <h3>Pontifícia Universidade Católica de Goiás</h3>
-                <p><strong>Curso:</strong> Ciências da Computação, Programação de Computadores - Aplicativos Específicos</p>
-            </div>
-        </section>
     </div>
-
-    <footer>
-        <p>&copy; 2024 Wellington Junio. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>
+{% endblock %}
