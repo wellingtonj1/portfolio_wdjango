@@ -1,4 +1,2 @@
-Criem uma base.html 
-e crie 2 rotas ultilizando essa base.html para alterar somente o conteudo
-interno 
-Data de entrega 17/09
+Criar um modelo para guardar no banco o Resumo e o Sobre da aplicação. 
+Data de entrega: Final do dia 24/09
