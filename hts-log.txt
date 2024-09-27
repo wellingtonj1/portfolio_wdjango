@@ -1,0 +1,13 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Thu, 26 Sep 2024 20:30:50 at http://localhost:8000 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://localhost:8000 -O "/root/websites/well" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:30:56	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 152): localhost:8000/static/js/index.js
+20:30:58	Warning: 	HTML file (2516 bytes) retransferred due to lack of cache: localhost:8000/sobre/
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 seconds : 9 links scanned, 9 files written (119660 bytes overall) [116413 bytes received at 12934 bytes/sec], 17384 bytes transferred using HTTP compression in 1 files, ratio 40%, 1.0 requests per connection
+(No errors, 2 warnings, 0 messages)
